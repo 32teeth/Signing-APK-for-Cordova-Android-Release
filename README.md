@@ -2,7 +2,7 @@
 ---
 
 ```
-keytool -genkey -v -keystore [key name].keystore -alias [alias] -keyalg RSA -keysize 2048 -validity 10000
+(sudo) keytool -genkey -v -keystore [key name].keystore -alias [alias] -keyalg RSA -keysize 2048 -validity 10000
 ```
 you will be prompted to provision additional details
 
