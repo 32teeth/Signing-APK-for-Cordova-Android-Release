@@ -23,7 +23,7 @@ you will be prompted for a key password hit return if the same as keystore
 
 
 ```
-jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore skipixel.keystore [path to apk] [alias]
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore [key name].keystore [path to apk] [alias]
 ```
 
 ```
